@@ -9,6 +9,7 @@ namespace VariablesCS
             Console.WriteLine("Please enter your name ");
 
             var fullName = Console.ReadLine();
+
             var today = "January 5th 2021";
 
             Console.WriteLine("\n");
@@ -37,7 +38,6 @@ namespace VariablesCS
             Console.WriteLine("\n");
             Console.WriteLine($"{numberOfCupsOfCoffee} divided by {moreCups} is {quotient} with a remainder of {remainder}");
             Console.WriteLine("\n");
-
         }
     }
 }
